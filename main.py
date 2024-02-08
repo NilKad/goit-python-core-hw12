@@ -313,7 +313,7 @@ command_list = {
     "remove phone": handler_remove_phone,  # del phone in contact: Name phone
     "birthday": handler_set_birthday,  # set birthday to contact: Name date_birthday
     "show all": handler_show_all,
-    "find": handler_find,  # find name or phone
+    "find": handler_find,  # find name or phone: Name|Phone
     "save": handler_save,  # save Addressbook
     "load": handler_load,  # load Addressbook
     "good bye": handler_end_program,
